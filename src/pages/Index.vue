@@ -1,9 +1,10 @@
 <template>
   <q-page class="flex flex-center">
-    <img
+    <q-img
       alt="Quasar logo"
-      src="~assets/quasar-logo-full.svg"
-    >
+      src="~assets/fd-logo.png"
+      style="height: 300px; width: 300px"
+    />
   </q-page>
 </template>
 
