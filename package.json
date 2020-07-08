@@ -1,8 +1,8 @@
 {
-  "name": "portfolio",
+  "name": "flunkout_dvlpr",
   "version": "0.0.1",
-  "description": "Personal portfolio site",
-  "productName": "portfolio",
+  "description": "flunkout_dvlpr portfolio site",
+  "productName": "flunkout_dvlpr",
   "author": "flunkout-dvlpr <info@juliogonzalez.space>",
   "private": true,
   "scripts": {
