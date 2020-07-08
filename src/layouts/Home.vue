@@ -2,24 +2,26 @@
   <q-layout view="lHh Lpr lFf">
     <q-header elevated>
       <q-toolbar>
-        <q-btn
+<!--         <q-btn
           flat
           dense
           round
           icon="menu"
           aria-label="Menu"
           @click="leftDrawerOpen = !leftDrawerOpen"
-        />
-
+        /> -->
+        <q-avatar square>
+          <img src="~assets/fd-logo.png" />
+        </q-avatar>
         <q-toolbar-title>
           flunkout_dvlpr
         </q-toolbar-title>
 
-        <div>Quasar v{{ $q.version }}</div>
+        <div>Julio C. Gonzalez</div>
       </q-toolbar>
     </q-header>
 
-    <q-drawer
+<!--     <q-drawer
       v-model="leftDrawerOpen"
       show-if-above
       bordered
@@ -38,22 +40,24 @@
           v-bind="link"
         />
       </q-list>
-    </q-drawer>
+    </q-drawer> -->
 
     <q-page-container>
+      <Carousel/>
       <router-view />
     </q-page-container>
   </q-layout>
 </template>
 
 <script>
-import EssentialLink from 'components/EssentialLink.vue'
-
+// import EssentialLink from 'components/EssentialLink.vue'
+import Carousel from 'components/Carousel'
 export default {
   name: 'MainLayout',
 
   components: {
-    EssentialLink
+    // EssentialLink,
+    Carousel
   },
 
   data () {
